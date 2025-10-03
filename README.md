@@ -67,7 +67,7 @@ The following key questions were answered using SQL queries on Uber trip data:
 10. **List all incomplete rides along with the reason**    
  
 ---
-🔍 SQL queries? Check them out here: [project sql folder](/Sql/Sql_Querries.sql/)
+🔍 SQL queries? Check them out here: [project sql folder](/Sql/Sql_Queries.sql)
 
 ---
 
