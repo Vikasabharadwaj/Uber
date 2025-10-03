@@ -1,5 +1,4 @@
 
-
 # Uber Trip Analysis Project
 
 🚖 This project provides a comprehensive analysis of Uber’s ride-hailing data, focusing on operational performance, customer behavior, revenue patterns, and vehicle efficiency. By leveraging both **SQL for data extraction** and **Power BI for visualization**, this project uncovers actionable insights to optimize Uber’s business strategies. The analysis covers **July 2024**, offering a snapshot of real-world ride patterns, cancellations, and revenue trends.
