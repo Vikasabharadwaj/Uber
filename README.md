@@ -2,7 +2,7 @@
 
 🚖 Dive into the Uber trip data! This project explores **ride patterns, vehicle performance, cancellations, customer behavior, and revenue trends**, uncovering key insights to improve operations and business decisions.
 
-🔍 SQL queries? Check them out here: [project sql folder](/Sql/Sql_Querries.sql/)
+
 
 ---
 
@@ -30,6 +30,7 @@ The insights also serve as the foundation for **Power BI dashboards**, where tre
 8. Which rides used **UPI payments**?  
 9. What are the reasons for **incomplete rides**?  
 
+🔍 SQL queries? Check them out here: [project sql folder](/Sql/Sql_Querries.sql/)
 ---
 
 ## Tools I Used
@@ -169,7 +170,8 @@ The main overview dashboard provides a high-level summary of the key business me
 * **Key Corridor:** The most frequent travel route is from **Banashankari** (top pickup) to **Peenya** (top drop-off).
 * **Busiest Hubs:** **Banashankari**, **Yeshwanthpur**, and **RT Nagar** are the top 3 pickup locations.
 
-(Powerbi/Dashboard.png)
+![Dashboard](Powerbi/Dashboard.png)
+
 
 ### 2. Revenue Analysis
 This view breaks down the sources of revenue, identifying top customers and high-performing categories.
@@ -180,6 +182,8 @@ This view breaks down the sources of revenue, identifying top customers and high
 * **Top Earning Vehicle:** **Prime Sedan** is the highest revenue-generating vehicle type.
 * **Top Earning Location:** **RT Nagar** is the pickup location that generates the most revenue.
 
+![Dashboard](Powerbi/Revenue.png)
+
 ### 3. Vehicle Analysis
 This dashboard details the usage patterns and distribution of different vehicle types in the fleet.
 
@@ -188,6 +192,8 @@ This dashboard details the usage patterns and distribution of different vehicle 
 * **Distance Anomaly:** **Autos** are used for shorter trips, with an average distance of **10 km**. All other vehicle types have a consistent average trip distance of **25 km**.
 * **Highest Revenue per Vehicle:** **Prime Sedan** generated the highest total trip amount at **₹5.22 Million**.
 
+![VehicleAnalysis](Powerbi/Revenue.png)
+
 ### 4. Ratings Analysis
 This report provides a simple but crucial look at customer satisfaction and driver performance.
 
@@ -195,6 +201,8 @@ This report provides a simple but crucial look at customer satisfaction and driv
 * **Peak Satisfaction:** **Prime Plus** received the highest average customer rating (**4.01**).
 * **Top Driver Performance:** Drivers of **E-Bikes** and **Prime SUVs** received the highest average rating (**4.01**).
 * **Overall Quality:** The tight range of high scores indicates a consistent and positive service experience regardless of the vehicle chosen.
+
+![Ratings](Powerbi/Rating.png)
 
 ### 5. Cancellation Report
 This dashboard sheds light on why trips fail, providing critical feedback for service improvement.
@@ -207,6 +215,8 @@ This dashboard sheds light on why trips fail, providing critical feedback for se
     1.  **Personal & Car related issues** (35%)
     2.  **Customer related issues** (29%)
 * **Key Insight:** The top two reasons for customer cancellations are related to driver behavior or issues, suggesting that improving driver reliability and communication could significantly reduce the cancellation rate.
+
+![Cancellation Reprot](Powerbi/Cancellation.png)
 
 ---
 
