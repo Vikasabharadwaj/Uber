@@ -52,45 +52,52 @@ Each SQL query was designed to extract meaningful insights from Uber trip data.
 SELECT * 
 FROM Trip_Details
 WHERE Ride_Status = 'Success';
-
+```
 Provides details of successfully completed trips.
 Helps track business success rate.
 Insight: Completed rides reflect operational efficiency and customer engagement.
 
-2. Average Ride Distance per Vehicle Type
+### 2. Average Ride Distance per Vehicle Type
 
+```sql
 SELECT 
     Vehicle_Type, 
     ROUND(AVG(Distance_km), 2)::text || ' km' AS avg_distance
 FROM Trip_Details
 GROUP BY Vehicle_Type;
-
+```
 Shows which vehicles are preferred for longer or shorter trips.
 Insight: Sedans and SUVs usually cover longer distances; Bikes and Autos mostly handle short city rides.
 
-3. Customer Cancellations
-
+### 3. Customer Cancellations
+```sql
 SELECT COUNT(*) AS cancelled_by_customers
 FROM Trip_Details
 WHERE Ride_Status = 'Cancelled by Customer';
-
+```
 Helps understand customer behavior and dissatisfaction patterns.
 Insight: High cancellations may indicate pricing issues, delays, or user experience problems.
 
-4. Top 5 Customers by Ride Count
+### 4. Top 5 Customers by Ride Count
+
+```sql
 SELECT Customer_ID, COUNT(Ride_ID) AS total_rides
 FROM Trip_Details
 GROUP BY Customer_ID
 ORDER BY total_rides DESC
 LIMIT 5;
+```
 
 Identifies the most loyal/high-value customers.
 Insight: Top customers can be targeted with loyalty rewards or premium offers.
 
-5.Driver Cancellations
+### 5.Driver Cancellations
+
+```sql
 SELECT COUNT(*) AS cancelled_by_driver
 FROM Trip_Details
 WHERE Driver_Cancellations = 'Personal & Car related issue';
+```
 
 Highlights operational inefficiencies due to driver issues.
 Insight: Monitoring driver cancellations helps optimize driver management.
