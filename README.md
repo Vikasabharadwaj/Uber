@@ -220,7 +220,7 @@ This dashboard details the usage patterns and distribution of different vehicle 
 * **Distance Anomaly:** **Autos** are used for shorter trips, with an average distance of **10 km**. All other vehicle types have a consistent average trip distance of **25 km**.
 * **Highest Revenue per Vehicle:** **Prime Sedan** generated the highest total trip amount at **₹5.22 Million**.
 
-![VehicleAnalysis](Powerbi/Revenue.png)
+![VehicleAnalysis](Powerbi/vehicletype.png)
 
 ### 4. Ratings Analysis
 This report provides a simple but crucial look at customer satisfaction and driver performance.
